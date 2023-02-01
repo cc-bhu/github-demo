@@ -6,11 +6,15 @@ int main() {
 
     cout << "Enter a positive integer: ";
     cin >> n;
-
-    for(int i = 1; i <= n; ++i) {
-        factorial *= i;
+    if(n >= 0)
+    {
+        for(int i = 1; i <= n; ++i) {
+            factorial *= i;
+        }
+        cout << "Factorial of " << n << " = " << factorial;
     }
-    cout << "Factorial of " << n << " = " << factorial;
+    else
+        cout << "Invalid Input!!!";
 
     return 0;
 }
