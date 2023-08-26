@@ -13,9 +13,9 @@ int main() {
     }
 
     for(int i = 1; i <= n; ++i) {
-        factorial *= i;
+        fact *= i;
     }
-    cout << "Factorial of " << n << " = " << factorial;
+    cout << "Factorial of " << n << " = " << fact;
 
     return 0;
 }
