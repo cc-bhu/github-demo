@@ -7,6 +7,11 @@ int main() {
     cout << "Enter a positive integer: ";
     cin >> n;
 
+    if (n<0){
+        cout<<"Negative Number";
+        exit;
+      }
+
     for(int i = 1; i <= n; ++i) {
         factorial *= i;
     }
