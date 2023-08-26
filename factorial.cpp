@@ -2,20 +2,25 @@
 using namespace std;
 
 int main() {
-    int n, fact = 1;
+
+    int m, fact = 1;
+
 
     cout << "Enter a positive integer: ";
-    cin >> n;
+    cin >> m;
 
-    if (n<0){
+    if (m<0){
         cout<< "Wrong input";
         return 1;
     }
 
-    for(int i = 1; i <= n; ++i) {
+
+
+    for(int i = 1; i <= m; ++i) {
         fact *= i;
     }
-    cout << "Factorial of " << n << " = " << fact;
+    cout << "Factorial of " << m << " = " << fact;
+
 
     return 0;
 }
