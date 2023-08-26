@@ -8,7 +8,7 @@ int main() {
     cin >> n;
     if(n <0 )
     {
-        cout<< "Wrong Output";
+        cout<< "Error: Factorial is Not define for negetive numbers";
         return 1;
     }
     for(int i = 1; i <= n; ++i) {
