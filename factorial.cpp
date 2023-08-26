@@ -8,7 +8,7 @@ int main() {
     cin >> n;
 if (n < 0 ){
     count << "Wrong Input";
-    cin >> n;
+    return 1;
 }
     for(int i = 1; i <= n; ++i) {
         factorial *= i;
