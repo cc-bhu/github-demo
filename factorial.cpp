@@ -8,7 +8,7 @@ int main() {
     cin >> n;
 
     if (n < 0) {
-        cout << "Wrong input";
+        cout << "Error: You've entered a negative number";
         return 1;
     }
 
