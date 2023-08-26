@@ -6,6 +6,10 @@ int main() {
 
     cout << "Enter a positive integer: ";
     cin >> n;
+    if(n<1){
+        cout<<"enter a valid number"<<endl;
+        return 1;
+    }
 
     for(int i = 1; i <= n; ++i) {
         factorial *= i;
