@@ -8,7 +8,7 @@ int main() {
     cin >> n;
 
     if(n<0) {
-        cout << "Negative number"
+        cout << "Negative number";
         exit;
     }
 
