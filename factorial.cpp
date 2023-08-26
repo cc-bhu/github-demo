@@ -8,7 +8,7 @@ int main() {
     cin >> n;
     if (n<0)
     {
-        cout<<"Wrong input";
+        cout<<"Invalid input";
         return 1;
     }
     for(int i = 1; i <= n; ++i) {
