@@ -7,9 +7,17 @@ int main() {
     cout << "Enter a positive integer: ";
     cin >> n;
 
+    if(n<0){
+        cout<<"Invalid number";
+        return 1;
+        }
+
+
     for(int i = 1; i <= n; ++i) {
-        factorial *= i;
+        factorial *= i;   
     }
+
+    
     cout << "Factorial of " << n << " = " << factorial;
 
     return 0;
