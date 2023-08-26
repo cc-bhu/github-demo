@@ -6,7 +6,10 @@ int main() {
 
     cout << "Enter a positive integer: ";
     cin >> n;
-
+if (n < 0 ){
+    count << "Wrong Input";
+    cin >> n;
+}
     for(int i = 1; i <= n; ++i) {
         factorial *= i;
     }
